@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.app-content {
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    /* background-color: black; */
+    /* min-height: 100vh; */
+    background-image: url('../img/HD-wallpaper-night-street-amoled-anime-dark-night-street.jpg');
+    background-size: cover;
+    background-color: rgb(61, 61, 61);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+.homeDiv {
+    position: relative;
+    top: 10rem;
+    width: 90%;
+    min-height: 80vh;
+    margin: auto;
+}
+
+.homeDiv-text span {
+    font-size: 16px;
+    color: ivory;
+    text-align: left;
+}
+
+.homeDiv-text h1 {
+    font-size: 48px;
+    color: rgb(202, 202, 2);
+    text-align: left;
+    font-weight: bold;
+}
+
+.gallery {
+    margin: 4rem 0;
+}
+
+.carousel {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-bottom: 1px solid ivory;
+    border-top: 1px solid ivory;
+    padding: 1rem 0;
+
+}
+
+.slide-image {
+    height: 300px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.homeDiv-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    color: ivory;
+    position: absolute;
+    left: 5%;
+    top: 95%;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer span {
+    color: ivory;
+    font-size: 15px;
+    text-align: center;
+}
+
+#firstDiv {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url('../img/HD-wallpaper-night-street-amoled-anime-dark-night-street.jpg');
+    background-size: cover;
+    background-color: rgb(61, 61, 61);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat; */
+}
+
+.firstDiv-col {
+    z-index: 500;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.firstdiv-text {
+    margin-top: 2rem;
+}
+
+.firstdiv-text h2 {
+    color: crimson;
+    font-weight: 700;
+    text-align: center;
+}
+
+.firstdiv-text p {
+    color: ivory;
+}
+
+.firstdiv-text span {
+    color: rgba(255, 255, 240, 0.788);
+}
+
+#mainDiv {
+    z-index: 500;
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0;
+    overflow-y: scroll;
+}
+.arrow-right-col{
+    position: relative;
+    left: 5%;
+}
+
+#arrow-right {
+    color: ivory;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.btn-div {
+    width: 100%;
+    height: 100%;
+    margin-top: 2.5rem;
+}
+
+.btn-submit-post {
+    display: flex;
+    background-color: crimson;
+    color: ivory;
+    padding: 0.5rem 1.5rem;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.secondDiv {
+    z-index: 500;
+    width: 100%;
+}
+
+.secondDiv-col {
+    width: 90%;
+    margin: auto;
+    z-index: 500;
+    padding: 1.5rem 0;
+}
+
+#secondDiv h2 {
+    color: ivory;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.arrow-left-col {
+    position: relative;
+    left: 2%;
+}
+
+#arrow-left {
+    color: ivory;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.input-title {
+    color: ivory;
+}
+
+
+
+.card-col {
+    height: 100%;
+    width: 100%;
+    margin: 1rem 0;
+    display: block;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: rgb(235, 235, 215);
+}
+
+
+.card-title {
+    color: crimson;
+}
+
+.card-title-col {
+    position: relative;
+}
+
+.card-title-col span {
+    position: absolute;
+    top: 90%;
+    right: 0;
+    transform: translate(-0, -10%);
+    font-size: 13px;
+}
+
+.card-content p {
+    margin-top: 1rem;
+    color: black;
+    font-size: 16px;
+}
+
+.success-col{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.success-col-text h3{
+    color: green;
+    font-weight: 700;
+}
+
+.success-col-button{
+    margin: 2rem 0;
+}
+
+.success-col-button button{
+    padding: 0.5rem 2rem;
+    background-color: green;
+    color: ivory;
+}
